@@ -32,3 +32,6 @@ __pycache__/
 venv/
 env/
 ENV/
+
+# Backup files
+*_backup.py
