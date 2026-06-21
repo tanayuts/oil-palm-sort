@@ -35,3 +35,21 @@ ENV/
 
 # Backup files
 *_backup.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.spec
+
+# Saved images (large, user-generated)
+saved_images/
