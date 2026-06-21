@@ -1,0 +1,34 @@
+# =========================================================================
+# Machine Learning & PyTorch Settings
+# =========================================================================
+# Ignore general PyTorch, checkpoints, and heavy dataset formats
+*.ckpt
+*.pth
+*.h5
+*.onnx
+*.weights
+events.out.tfevents.*
+
+# Exclude specific training directories
+outputs/
+checkpoints/
+runs/
+logs/
+
+# IMPORTANT: Ensure your specific active models are NEVER ignored
+!classify.pt
+!detector.pt
+
+# =========================================================================
+# Python / Environment Clutter
+# =========================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/

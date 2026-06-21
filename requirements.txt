@@ -1,0 +1,4 @@
+ultralytics==8.4.72
+opencv-python
+PySide6
+lapx
