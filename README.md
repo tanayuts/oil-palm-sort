@@ -43,6 +43,20 @@ graph TD
   * **Daily Export:** Generates daily reports and summary exports (TXT and CSV) at the click of a button.
 
 ---
+## 📊 Model Performance
+
+Our classification model (`classify.pt`) has been rigorously trained and evaluated to ensure high reliability in a real-world production environment.
+
+### Training Metrics & Confusion Matrix
+<p align="center">
+  <img src="traing-metrics.png" alt="Training Metrics" width="45%">
+  <img src="confusion-matrix.png" alt="Confusion Matrix" width="45%">
+</p>
+
+**Key Evaluation Insights:**
+* **High Accuracy:** The model achieves a stable Top-1 Accuracy of over **98%**, with consistently decreasing training and validation loss, indicating excellent generalization without overfitting.
+* **Flawless Extreme Classification:** The system achieves **100% accuracy** when distinguishing between stark physical differences, completely eliminating errors for Unripe (Class 0) and Overripe (Class 3) fruits.
+* **Realistic Boundary Handling:** Minor cross-classifications occur strictly at the immediate transition phases (e.g., between Underripe and Ripe). This mirrors natural biological variance and human-level grading ambiguity, confirming the model's logical feature extraction.
 
 ## 📂 Project Structure
 
