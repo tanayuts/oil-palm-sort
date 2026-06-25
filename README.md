@@ -49,7 +49,7 @@ Our classification model (`classify.pt`) has been rigorously trained and evaluat
 
 ### Training Metrics & Confusion Matrix
 <p align="center">
-  <img src="traning-metrics.png" alt="Training Metrics" width="45%">
+  <img src="training-metrics.png" alt="Training Metrics" width="45%">
   <img src="confusion-matrix.png" alt="Confusion Matrix" width="45%">
 </p>
 
